@@ -90,7 +90,7 @@ img{
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
-  margin: 45px;
+  margin: 25px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
