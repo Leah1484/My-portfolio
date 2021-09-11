@@ -2,11 +2,13 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --gradient: linear-gradient(to top, #fff 0%, #a6c1ee 100%);
 }
 
 body {
   margin: 60px auto;
   max-width: 100%;
+  background: var(--gradient);
 }
 
 h1,
@@ -76,12 +78,32 @@ h3 {
   font-size: 28px;
   text-decoration: none;
 }
-
+#weather {
+  margin-top: 20px;
+}
+#about-projects {
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  width: fit-content;
+  padding: 20px 50px;
+}
 .email-link:hover {
   text-decoration: underline;
 }
 #contact {
   margin: 30px;
+}
+#my-projects {
+  margin: 0 auto;
+  display: block;
+  font-size: 35px;
+  padding-bottom: 6px;
+  padding-top: 20px;
+  width: fit-content;
+  font-family: "space mono", monospace;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
 .primary-link {
@@ -93,4 +115,22 @@ h3 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+footer {
+  background-color: #cff1ea;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+}
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px 20px 30px 20px;
+}
+small {
+  text-transform: none;
 }

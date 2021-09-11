@@ -23,46 +23,49 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5 fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand text-light ps-4" href="#">Njoki Leah</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active text-light"
-                aria-current="page"
-                href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link about-nav-link text-light" href="about.html"
-                >About Me</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link contact-nav-link text-light"
-                href="about.html#contact-me"
-                >Contact Me</a
-              >
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light ps-4" href="#">Njoki Leah</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link about-nav-link text-light" href="about.html"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link contact-nav-link text-light"
+                  href="about.html#contact-me"
+                  >Contact Me</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
+
     <h2>👋 Hi I am</h2>
     <h1>Njoki Leah</h1>
     <h3>Ke Front-end developer, based in Kenya</h3>
@@ -70,24 +73,29 @@
       <a href="about.html#contact" class="contact-link">Contact me</a>
       <a href="about.html" class="about-link">About me</a>
     </div>
+    <div id="my-projects">My Projects</div>
     <div class="container text-center">
       <div class="row">
         <div class="col-sm-6">
           <img
-            src="https://f986e.csb.app/images/yoga.png"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/971/original/abba.png?1631341475"
             class="img-fluid rounded max-width:100%"
           />
         </div>
         <div class="col-sm-6 p-3">
-          <h2 class="h2-font mb-3">Yoga App</h2>
+          <h2 class="h2-font mb-3">ABBA</h2>
           <p>
-            Etiam dapibus sem nisi, sit amet sollicitudin tellus ultrices a. Sed
-            elementum ultricies nunc eu luctus. Vestibulum ante ipsum primis in
-            faucibus orci luctus et ultrices posuere cubilia curae; Donec non
-            orci id augue vestibulum molestie.
+            This was the first ever website that I created when I started
+            learning coding. Its about ABBA, a pop group that became famous in
+            the 70s. The band is still releasing new songs in 2021 and it's a
+            source of entertainment to lots of people in the world.
           </p>
           <div class="mt-5">
-            <a href="" class="primary-link">Launch Yoga App</a>
+            <a
+              href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/412/704/original/ABBA.html?1625723227"
+              class="primary-link"
+              >Launch ABBA website</a
+            >
           </div>
         </div>
       </div>
@@ -96,20 +104,24 @@
         <div class="col-sm-6 p-3">
           <h2 class="h2-font mb-3">Weather App</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante
-            mi. Sed iaculis feugiat tellus id tempor. Vivamus leo augue, gravida
-            vitae metus ac, egestas dapibus ligula. Vivamus id arcu id nunc
-            vulputate feugiat a ac risus. Nulla bibendum faucibus congue. Fusce
-            fringilla ullamcorper neque, ac tempus purus lobortis et.
+            This weather forecast app detects weather in your current location
+            and any other city or small town in any part of the world. In
+            addition to that, you can view the hourly and daily forecasts of
+            thelocations.
           </p>
           <div class="mt-5">
-            <a href="" class="primary-link">Launch Weather App</a>
+            <a
+              href="https://quirky-wilson-143f90.netlify.app/"
+              class="primary-link"
+              >Launch Weather App</a
+            >
           </div>
         </div>
         <div class="col-sm-6">
           <img
-            src="https://f986e.csb.app/images/weather.png"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/972/original/weather.png?1631341493"
             class="img-fluid rounded max-width:100%"
+            id="weather"
           />
         </div>
       </div>
@@ -117,25 +129,35 @@
       <div class="row mt-5">
         <div class="col-sm-6">
           <img
-            src="https://f986e.csb.app/images/yogurt.png"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/016/974/original/portfolio.png?1631347923"
             class="img-fluid rounded max-width:100%"
           />
         </div>
         <div class="col-sm-6 p-3">
-          <h2 class="h2-font mb-3">Yogurt App</h2>
+          <h2 class="h2-font mb-3">My Portfolio</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac ante
-            mi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
-            ante mi. Sed iaculis feugiat tellus id tempor. Vivamus leo augue,
-            gravida vitae metus ac, egestas dapibus ligula. Vivamus id arcu id
-            nunc vulputate feugiat a ac risus. Nulla bibendum faucibus congue.
-            Fusce fringilla ullamcorper neque, ac tempus purus lobortis et.
+            This is a portfolio im trying to create about myself. It willshow
+            all the projects I have worked on and my contact details.
           </p>
           <div class="mt-5">
-            <a href="" class="primary-link">Launch Yogurt App</a>
+            <a href="" class="primary-link">Lauch the Portfolio</a>
           </div>
         </div>
       </div>
     </div>
+    <footer>
+      <p class="footer-text">Njoki Leah</p>
+        <div class="footer-links">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="mailto:leahnjoki1484@gmail.com">Contact</a></li>
+                <li><a href="https://www.facebook.com/wamweru.leah" target="_blank"><i class="fab fa-facebook"></i></i></a></li>
+                <li><a href="https://www.linkedin.com/in/leah-wamweru-313b89173/" target="_blank"><i class="fab fa-linkedin"></i></i></a></li>
+                <li><a href="https://www.instagram.com/wamweruleah/" target="_blank"><i class="fab fa-instagram"></i></i></a></li>
+            </ul>
+        </div>
+        <small>Copyright © 2021. Njoki Leah. All rights reserved.</small>
+    </footer>
+    <script src="https://kit.fontawesome.com/c1a8e8288e.js" crossorigin="anonymous"></script>
   </body>
 </html>
